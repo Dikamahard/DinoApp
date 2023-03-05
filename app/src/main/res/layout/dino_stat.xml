@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_700"
+    android:paddingBottom="16dp">
+
+    <TextView
+        android:id="@+id/tv_dino_profile"
+        style="@style/DetailStat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="Dino Profile "
+        android:textStyle="bold"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_era"
+        style="@style/DetailStat"
+        android:layout_marginTop="8dp"
+        android:text="Era"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_dino_profile" />
+
+    <TextView
+        android:id="@+id/tv_year"
+        style="@style/DetailStat"
+        android:text="Year"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_era" />
+
+    <TextView
+        android:id="@+id/tv_type"
+        style="@style/DetailStat"
+        android:text="Type"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_year" />
+
+    <TextView
+        android:id="@+id/tv_diet"
+        style="@style/DetailStat"
+        android:text="Diet"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_type" />
+
+    <TextView
+        android:id="@+id/tv_region"
+        style="@style/DetailStat"
+        android:text="Region"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_diet" />
+
+    <TextView
+        android:id="@+id/tv_data_era"
+        style="@style/DetailStat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text=": JURASSIC"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toBottomOf="@+id/tv_dino_profile" />
+
+    <TextView
+        android:id="@+id/tv_data_year"
+        style="@style/DetailStat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=": 2023"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toBottomOf="@+id/tv_data_era" />
+
+    <TextView
+        android:id="@+id/tv_data_type"
+        style="@style/DetailStat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=": Suropod"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toBottomOf="@+id/tv_data_year" />
+
+    <TextView
+        android:id="@+id/tv_data_diet"
+        style="@style/DetailStat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=": Carnivore"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toBottomOf="@+id/tv_data_type" />
+
+    <TextView
+        android:id="@+id/tv_data_region"
+        style="@style/DetailStat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=": USA"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toBottomOf="@+id/tv_data_diet" />
+
+    <TextView
+        android:id="@+id/tv_size"
+        style="@style/DetailStat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="Dino Size "
+        android:textStyle="bold"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_region" />
+
+    <TextView
+        android:id="@+id/tv_weight"
+        style="@style/DetailStat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="Weight"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_size" />
+
+    <TextView
+        android:id="@+id/tv_data_weight"
+        style="@style/DetailStat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text=": 5000kg"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toBottomOf="@+id/tv_size" />
+
+    <TextView
+        android:id="@+id/tv_length"
+        style="@style/DetailStat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Length"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_weight" />
+
+    <TextView
+        android:id="@+id/tv_data_length"
+        style="@style/DetailStat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=": 8m"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toBottomOf="@+id/tv_data_weight" />
+
+    <TextView
+        android:id="@+id/tv_height"
+        style="@style/DetailStat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Height"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_length" />
+
+    <TextView
+        android:id="@+id/tv_data_height"
+        style="@style/DetailStat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=": 5m"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toBottomOf="@+id/tv_data_length" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="59dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

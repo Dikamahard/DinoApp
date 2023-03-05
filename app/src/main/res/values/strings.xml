@@ -1,0 +1,180 @@
+<resources>
+    <string name="app_name">DinoApp</string>
+
+    <string name="dinos_name">Dinosaurs Name</string>
+    <string name="description">Description</string>
+    <string name="my_email">ikkyboss@gmail.com</string>
+    <string name="my_name">Rizky Mahardika H</string>
+    <string name="about_me">About Me</string>
+    <string name="main_page">Main Page</string>
+
+    <string-array name="data_name">
+        <item>Allosaurus</item>
+        <item>Diplodocus</item>
+        <item>Muttaburrasaurus</item>
+        <item>Pachycephalosaurus</item>
+        <item>Parasaurolophus</item>
+        <item>Pentaceratops</item>
+        <item>Stegosaurus</item>
+        <item>Tyrannosaurus Rex</item>
+        <item>Triceratops</item>
+        <item>Velociraptor</item>
+    </string-array>
+
+    <string-array name="data_desc_detail">
+        <item>Allosaurus is one of the most fearsome dinosaurs ever to have roamed the earth, weighing up to two tonnes and measuring around 12m in length.he apex predator of the Late Jurassic period, Allosaurus’ enormous skull contains rows of large, serrated teeth for tearing flesh, while its long, powerful tail helps it to balance.
+        \n\nAllosaurus lived around 150 million years ago in the forests and floodplains of the western United States, most notably Utah and Colorado. It co-existed with many other species of dinosaur, feeding mostly on large herbivores such as Stegosaurus and Apatosaurus.</item>
+        <item>Diplodocus is one of the biggest sauropods that has ever existed, at around 12 tonnes in weight and 24m in length.This gentle giant is a herbivore and uses its long neck to feed from tall trees (in fact, Diplodocus’ teeth are strong enough to strip bark) as well as plants and shrubs at ground level, while its vast size discourages predators from attacking.
+        \n\nDiplodocus lived in the Morrison Formation around 150m years ago during the Late Jurassic period and tended to live near swamps, where water was easy to come by and there was plenty of vegetation. Once fully grown it would not have had any natural predators, although juveniles may have been targeted by Allosaurus and Ceratosaurus.</item>
+        <item>Muttaburrasaurus is a genus of herbivorous ornithopod notable for its flat skull and blunt snout. It can grow up to 9m in length and almost three tonnes in weight.
+        \n\nMuttaburrasaurus lived during the Early Cretaceous period, around 100-110m years ago, travelling long distances across Australia in search of forest areas that could provide the vegetation they needed. It lived alongside many herbivores as well as the predator Australovenator, which may have preyed on Muttaburrasaurus.</item>
+        <item>Pachycephalosaurus is an herbivorous dinosaur that lived in North America during the Late Cretaceous period, The name Pachycephalosaurus translates to ‘thick-headed lizard’, in reference to the genus’ large, thick skull that experts believe was used in intra-species combat, with rival dinosaurs attacking each other when competing for territory. Growing up to 4.5m in length and weighing almost half a ton, Pachycephalosaurus is one of the largest pachycephalosaurid dinosaurs.
+        \n\nThis genus lived around 65-75m years ago in the western United States, co-existing with many other dinosaurs including Edmontosaurus, Triceratops and the fearsome apex predator Tyrannosaurus. It is believed that Pachycephalosaurus lived in wooded areas, feeding on soft plants, fruit and seeds.</item>
+        <item>Parasaurolophus is an herbivorous hadrosaurid native to North America, and is famed for its unique head crest. Parasaurolophus grows up to around 7.5m in length
+        \n\nThe remains of Parasaurolophus have been found across the western United States, Canada and even as far away as Asia. The genus dates back around 75m years to the Late Cretaceous period, when the climate was seasonal but warm, and lived along rivers and near floodplains and swamps, alongside other dinosaurs including Centrosaurus, Styracosaurus and Euoplocephalus.</item>
+        <item>Pentaceratops is a relative of the more famous Triceratops, This genus can grow up to 7m in length and weighs in excess of five tonnes.Pentaceratops existed during the Late Cretaceous period, around 75m years ago and lived on the vast plains of the western United States, feeding mainly on plants and shrubs. It lived alongside numerous other dinosaurs including Parasaurolophus and Edmontosaurus, and is unlikely to have had any predators once fully grown due to its large size.</item>
+        <item>Stegosaurus is one of the most famous dinosaurs ever to have existed,thanks to the distinctive upright plates and spikes that adorn its back and tail.
+        The bony plates along its back were embedded in the skin of the animal, not attached to its skeleton, which is why in most fossil finds the plates are separated from the body.
+            \n\nWhen O C Marsh described the first fossil of a Stegosaurus, he concluded that the plates would have lain flat on its back. After finding a specimen that had been covered with mud, which had held the plates in place, Marsh realised that they stood vertically, alternately on either side of the spine.
+            \n\nScientists are not exactly sure what the plates were used for. They may have warned off predators, or allowed members of the same species to recognise each other. Another suggestion is that the plates were used to regulate body temperature.</item>
+        <item>The most famous of all dinosaurs, Tyrannosaurus rex enjoys a fearsome reputation around the world thanks to its size, power and aggression.
+        \n\nTyrannosaurus lives up to its reputation as one of the most fearsome animals of all time. Its powerful jaws had 60 teeth, each one up to 20cm (8 inches) long and its bite was around 3 times as powerful than that of a lion.
+            \n\nBite marks found on Triceratops and Edmontosaurus fossil bones show that Tyrannosaurus could crunch through bone. Analysis of fossilised Tyrannosaurus dung show that it contained the bones of its prey.</item>
+        <item>With its 3 horns, a parrot-like beak and a large frill that could reach nearly 1 metre (3 feet) across, the Triceratops skull is one of the largest and most striking of any land animal.
+            \n\nThe horns could have been used to fend off attacks from Tyrannosaurus. A partial Triceratops fossil collected in 1997 has a horn that was bitten off, with bite marks that match Tyrannosaurus. The fossil shows that the horn healed after being bitten, so at least some Triceratops survived these encounters.
+            \n\nPuncture marks on fossil frills show that male Triceratops also used their horns to fight each other, probably to impress females.</item>
+        <item>Velociraptor was a carnivore. It lived in the Cretaceous period and inhabited Asia.As portrayed in the Jurassic Park movies,Velociraptor was recreated at twice its actual size and closely modelled on Deinonychus. Though this was seen as unscientific at the time, soon after the first film was released, a dinosaur of the same type, Utahraptor, was discovered, even larger than the virtual Velociraptors.
+            \n\nVelociraptor is now thought to have had a fine feather-like covering.</item>
+    </string-array>
+
+    <string-array name="data_era">
+        <item>Late Jurassic</item>
+        <item>Late Jurrasic</item>
+        <item>Early Cretaceous</item>
+        <item>Late Cretaceous</item>
+        <item>Late Cretaceous</item>
+        <item>Late Cretaceous</item>
+        <item>Late Jurassic</item>
+        <item>Late Cretaceous</item>
+        <item>Late Cretaceous</item>
+        <item>Late Cretaceous</item>
+    </string-array>
+
+    <string-array name="data_year">
+        <item>156–144 million years ago</item>
+        <item>155–145 million years ago</item>
+        <item>110–100 million years ago</item>
+        <item>76–65 million years ago</item>
+        <item>76–74 million years ago</item>
+        <item>76–74 million years ago</item>
+        <item>155–145 million years ago</item>
+        <item>68–66 million years ago</item>
+        <item>68–66 million years ago</item>
+        <item>74–70 million years ago</item>
+    </string-array>
+
+    <string-array name="data_type">
+        <item>Large theropod</item>
+        <item>Sauropod</item>
+        <item>Large ornithopod</item>
+        <item>Pachycephalosaur</item>
+        <item>Large ornithopod</item>
+        <item>Ceratopsian</item>
+        <item>Stegosauridae</item>
+        <item>Large theropod</item>
+        <item>Ceratopsian</item>
+        <item>Small theropod</item>
+    </string-array>
+
+    <string-array name="data_diet">
+        <item>Carnivorous</item>
+        <item>Herbivorous</item>
+        <item>Herbivorous</item>
+        <item>Herbivorous</item>
+        <item>Herbivorous</item>
+        <item>Herbivorous</item>
+        <item>Herbivorous</item>
+        <item>Carnivorous</item>
+        <item>Herbivorous</item>
+        <item>Carnivorous</item>
+    </string-array>
+
+    <string-array name="data_region">
+        <item>Portugal, USA</item>
+        <item>USA</item>
+        <item>Australia</item>
+        <item>Canada, USA</item>
+        <item>Canada, USA</item>
+        <item>USA</item>
+        <item>USA</item>
+        <item>Canada, USA</item>
+        <item>USA</item>
+        <item>Mongolia</item>
+    </string-array>
+
+    <string-array name="data_weight">
+        <item>2000kg</item>
+        <item>15000kg</item>
+        <item>3100kg</item>
+        <item>3000kg</item>
+        <item>3500kg</item>
+        <item>5000kg</item>
+        <item>3.500kg</item>
+        <item>7000kg</item>
+        <item>5500kg</item>
+        <item>15kg</item>
+    </string-array>
+
+    <string-array name="data_height">
+        <item>3.8m</item>
+        <item>4m</item>
+        <item>3m</item>
+        <item>2.5m</item>
+        <item>2.5m</item>
+        <item>5.2m</item>
+        <item>5m</item>
+        <item>5m</item>
+        <item>3.7m</item>
+        <item>0.9m</item>
+    </string-array>
+
+    <string-array name="data_length">
+        <item>12m</item>
+        <item>24m</item>
+        <item>8.7m</item>
+        <item>8m</item>
+        <item>11m</item>
+        <item>6.8m</item>
+        <item>10m</item>
+        <item>12m</item>
+        <item>9m</item>
+        <item>1.8m</item>
+    </string-array>
+
+
+    <string-array name="data_desc_list">
+        <item>AL-oh-saw-russ, \nName meaning: \'other lizard\'</item>
+        <item>DIP-low DOCK-us, \nName meaning: \'double beam\'</item>
+        <item>MUT-a-BURR-a-SORE-us,\nName meaning:\'Muttaburra lizard\'</item>
+        <item>pack-i-KEF-al-oh-sore-russ,\nName meaning:\'thick-headed lizard\'</item>
+        <item>pa-ra-saw-ROL-off-us,\nName meaning:\'like Saurolophus\'</item>
+        <item>pent-ah-ker-ah-tops,\nName meaning:\'five-horned face\'</item>
+        <item>STEG-oh-SORE-us,\nName meaning:\'roof lizard\'</item>
+        <item>tie-RAN-oh-sore-us,\nName meaning:\'tyrant lizard\'</item>
+        <item>tri-SERRA-tops,\nName meaning:\'three-horned face\'</item>
+        <item>vel-OSS-ee-rap-tor,\nName meaning:\'quick plunderer\'</item>
+    </string-array>
+
+    <integer-array name="data_img">
+        <item>@drawable/allosaurus_1</item>
+        <item>@drawable/diplodocus_1</item>
+        <item>@drawable/muttaburasaurus_1</item>
+        <item>@drawable/pachy_1</item>
+        <item>@drawable/parasaurolopus_1</item>
+        <item>@drawable/pentaceratops</item>
+        <item>@drawable/stego_11</item>
+        <item>@drawable/trex</item>
+        <item>@drawable/triceratops</item>
+        <item>@drawable/velociraptor</item>
+    </integer-array>
+</resources>
